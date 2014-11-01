@@ -80,7 +80,6 @@ public class MainActivity extends Activity implements OnMarkerClickListener,
 		showProgressDialog("searchById");
 		items.clear();
 		mCloudSearch.searchCloudDetailAsyn(mTableID, mId);
-
 	}
 
 	public void searchByBound(View view) {
