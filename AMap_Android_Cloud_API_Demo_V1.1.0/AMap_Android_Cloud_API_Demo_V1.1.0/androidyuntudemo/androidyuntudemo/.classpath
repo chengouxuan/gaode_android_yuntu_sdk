@@ -5,10 +5,5 @@
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
-	<classpathentry kind="lib" path="libs/AMap_3DMap_V2.3.0.jar">
-		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/E:/github/gaode_android_yuntu_sdk/AMap_Android_Cloud_SDK_Doc.zip!/"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
