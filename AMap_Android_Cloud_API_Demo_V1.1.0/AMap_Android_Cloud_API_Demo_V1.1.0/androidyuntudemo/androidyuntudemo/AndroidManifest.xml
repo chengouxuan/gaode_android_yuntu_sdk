@@ -25,7 +25,7 @@
         android:theme="@style/AppTheme" >
         <meta-data
             android:name="com.amap.api.v2.apikey"
-            android:value="ed296f82d2e9de63a4ab2aeea98df3b9" />
+            android:value="a7d833856f634d4acadb577f30a665d0" />
               <activity
             android:name="com.amap.yuntu.demo.MainActivity"
             android:label="@string/app_name" >

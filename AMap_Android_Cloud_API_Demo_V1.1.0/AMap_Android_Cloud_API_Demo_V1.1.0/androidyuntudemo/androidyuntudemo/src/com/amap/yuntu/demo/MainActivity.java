@@ -47,7 +47,7 @@ public class MainActivity extends Activity implements OnMarkerClickListener,
 	private MapView mapView;
 	private AMap mAMap;
 	private CloudSearch mCloudSearch;
-	private String mTableID = ""; // 用户tableid，从官网下载测试数据后在云图中新建地图并导入，获取相应的tableid
+	private String mTableID = "546ac195e4b08f472bf42a6d"; // 用户tableid，从官网下载测试数据后在云图中新建地图并导入，获取相应的tableid
 	private String mId = ""; // 用户table 行编号
 	private String mKeyWord = "公园"; // 搜索关键字
 	private CloudSearch.Query mQuery;
@@ -90,7 +90,7 @@ public class MainActivity extends Activity implements OnMarkerClickListener,
 		try {
 			mQuery = new CloudSearch.Query(mTableID, mKeyWord, bound);
 			mQuery.setPageSize(10);
-			CloudSearch.Sortingrules sorting = new CloudSearch.Sortingrules("_id",
+			CloudSearch.Sortingrules sorting = new CloudSearch.Sortingrules("_location",
 					false);
 			mQuery.setSortingrules(sorting);
 			mCloudSearch.searchCloudAsyn(mQuery);// 异步搜索
